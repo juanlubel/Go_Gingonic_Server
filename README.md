@@ -6,7 +6,7 @@ _Before git clone_
 
 1.- Download Go www.golang.org
 
-2.-
+2.- Download the .tar file (linux)
 
     tar -C /usr/local -xzf go$VERSION.$OS-$ARCH.tar.gz
     
@@ -15,9 +15,10 @@ _Before git clone_
 nano ~/.bashrc
 
 ~~~~
-export PATH=$/user/local/go/bin
+export PATH=$PATH:/user/local/go/bin
 export GOROOT=/usr/local/go
 export GOPATH=/home/{$user}/go
+export PATH=$PATH:/home/${user}/go/bin
 
 ```
     mkdir ~/go/src

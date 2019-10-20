@@ -12,4 +12,4 @@
 *.out
 
 # default GoLand folder
-.idea
+/.idea
