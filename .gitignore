@@ -19,3 +19,7 @@ Go_Gingonic_Server
 
 #utils
 *.ico
+
+#vendor
+vendor/
+!vendor/vendor.json
