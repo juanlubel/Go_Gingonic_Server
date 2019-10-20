@@ -3,10 +3,52 @@
 	"ignore": "test",
 	"package": [
 		{
+			"checksumSHA1": "ZxzYc1JwJ3U6kZbw/KGuPko5lSY=",
+			"path": "github.com/howeyc/fsnotify",
+			"revision": "f0c08ee9c60704c1879025f2ae0ff3e000082c13",
+			"revisionTime": "2015-10-03T19:46:02Z"
+		},
+		{
 			"checksumSHA1": "wwEGs3bPrm/zZT0o9gkQ3cJsNu8=",
 			"path": "github.com/joho/godotenv",
 			"revision": "5c0e6c6ab1a0a9ef0a8822cba3a05d62f7dad941",
 			"revisionTime": "2019-02-04T04:41:09Z"
+		},
+		{
+			"checksumSHA1": "XCrIQIhBqX1Ierm/Uz9lLjizT8c=",
+			"path": "github.com/mattn/go-colorable",
+			"revision": "98ec13f34aabf44cc914c65a1cfb7b9bc815aef1",
+			"revisionTime": "2019-09-30T17:34:38Z"
+		},
+		{
+			"checksumSHA1": "IQ7SsIWs24sdmY9WnHNf3YV99Yc=",
+			"path": "github.com/mattn/go-isatty",
+			"revision": "0e9ddb7c0c0aef74fa25eaba4141e6b5ab7aca2a",
+			"revisionTime": "2019-10-09T15:56:15Z"
+		},
+		{
+			"checksumSHA1": "E6UQyurP+C3mXR9SqGPwg1lcdC0=",
+			"path": "github.com/pilu/config",
+			"revision": "3eb99e6c0b9a2dae0f56f05552c06ca5a643919b",
+			"revisionTime": "2013-12-14T18:24:32Z"
+		},
+		{
+			"checksumSHA1": "jjGv0COH0XipH5VkbVjBXibE4n0=",
+			"path": "github.com/pilu/fresh",
+			"revision": "0fa698148017fa2234856bdc881d9cc62517f62b",
+			"revisionTime": "2019-08-26T14:12:11Z"
+		},
+		{
+			"checksumSHA1": "XPkvpRCANFnDmDU7/QFW05+2TRs=",
+			"path": "github.com/pilu/fresh/runner",
+			"revision": "0fa698148017fa2234856bdc881d9cc62517f62b",
+			"revisionTime": "2019-08-26T14:12:11Z"
+		},
+		{
+			"checksumSHA1": "5orn86H/ltfCBY7H02RM3/rWuxY=",
+			"path": "golang.org/x/sys/unix",
+			"revision": "727590c5006e77ca5247972f47e877f4929fc985",
+			"revisionTime": "2019-10-18T07:22:11Z"
 		}
 	],
 	"rootPath": "Go_Gingonic_Server"

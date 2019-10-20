@@ -36,4 +36,8 @@ export PATH=$PATH:/home/${user}/go/bin
     cd exemple_project
     go build
     ./exemple_project
+    
+6.- Import external packages
+
+    govendor fetch github.com/route/external/package
 
