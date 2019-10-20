@@ -21,9 +21,6 @@ export GOPATH=/home/{$user}/go
 export PATH=$PATH:/home/${user}/go/bin
 
 ```
-    mkdir ~/go/src
-    cd ~/go/src
-    git clone https://github.com/juanlubel/Go_Gingonic_Server.git 
     
 4.- Install GinGonic https://github.com/gin-gonic/gin#installation
 
@@ -32,4 +29,11 @@ export PATH=$PATH:/home/${user}/go/bin
     govendor init
     
 5.- Do the git clone
+
+    mkdir ~/go/src
+    cd ~/go/src
+    git clone https://github.com/juanlubel/Go_Gingonic_Server.git exemple_project
+    cd exemple_project
+    go build
+    ./exemple_project
 
