@@ -42,7 +42,7 @@ export PATH=$PATH:/home/${user}/go/bin
     go build
     ./exemple_project
 
-6.- Instal fresh for project auto reload
+6.- Install fresh for project auto reload
 
     go get github.com/pilu/fresh
 
