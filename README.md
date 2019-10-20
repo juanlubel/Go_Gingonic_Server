@@ -24,3 +24,12 @@ export PATH=$PATH:/home/${user}/go/bin
     mkdir ~/go/src
     cd ~/go/src
     git clone https://github.com/juanlubel/Go_Gingonic_Server.git 
+    
+4.- Install GinGonic https://github.com/gin-gonic/gin#installation
+
+    go get -u github.com/gin-gonic/gin
+    go get github.com/kardianos/govendor
+    govendor init
+    
+5.- Do the git clone
+

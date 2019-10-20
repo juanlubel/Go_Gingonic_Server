@@ -12,4 +12,10 @@
 *.out
 
 # default GoLand folder
-/.idea
+.idea
+
+#build
+Go_Gingonic_Server
+
+#utils
+*.ico
