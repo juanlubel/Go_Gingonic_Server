@@ -26,8 +26,13 @@ export PATH=$PATH:/home/${user}/go/bin
 
     go get -u github.com/gin-gonic/gin
     go get github.com/kardianos/govendor
-    govendor init
     
+    
+    govendor init
+    govendor fetch route/externel/package
+    
+>use Govendor for production package
+   
 5.- Do the git clone
 
     mkdir ~/go/src
@@ -37,3 +42,12 @@ export PATH=$PATH:/home/${user}/go/bin
     go build
     ./exemple_project
 
+6.- Instal fresh for project auto reload
+
+    go get github.com/pilu/fresh
+
+Before this
+
+    go build
+    fresh
+    
