@@ -13,6 +13,7 @@
 
 # default GoLand folder
 .idea
+.vscode
 
 #build
 Go_Gingonic_Server
@@ -23,3 +24,5 @@ Go_Gingonic_Server
 #vendor
 vendor/
 !vendor/vendor.json
+
+tmp/
