@@ -30,5 +30,5 @@ func main() {
 
 	//Start server
 	fmt.Println("listen and serve on localhost"+port)
-	_ = app.Run(port) // listen and serve on 0.0.0.0:8080
+	_ = app.Run(port) // listen and serve on 0.0.0.0:3030
 }

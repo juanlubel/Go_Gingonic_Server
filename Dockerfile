@@ -4,7 +4,7 @@ LABEL maintainer="Juanlubel <juanluis.belda@gmail.com>"
 
 WORKDIR /app
 
-COPY go.mod ./
+COPY go.mod go.sum ./
 
 RUN go mod download
 

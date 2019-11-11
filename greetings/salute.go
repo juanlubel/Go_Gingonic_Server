@@ -9,5 +9,5 @@ func Salute(router *gin.RouterGroup) {
 
 func getSalute(c *gin.Context) {
 	name := c.Param("name")
-	c.JSON(200, gin.H{"Hello, my friendly": name})
+	c.JSON(200, gin.H{"Hello, my dockerized friend": name})
 }
