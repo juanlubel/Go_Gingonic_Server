@@ -12,6 +12,8 @@ COPY . .
 
 RUN go build -o main .
 
+RUN go get github.com/pilu/fresh
+
 EXPOSE 3030
 
-CMD ["./main"]
+CMD ["fresh"]

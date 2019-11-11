@@ -1,5 +1,15 @@
 # Go_Gingonic_Server
 
+## Dockerized
+
+You can use a container to deploy this repository
+
+    git clone [repository] repo_name
+    cd repo_name
+    docker-compose up
+
+Start to programing GoLang without installing environment
+
 ## Install Go
 
 _Before git clone_
@@ -42,7 +52,7 @@ export PATH=$PATH:/home/${user}/go/bin
     go build
     ./exemple_project
     
-6.- Import external packages
+*.- Import external packages
 
     govendor fetch github.com/route/external/package
 

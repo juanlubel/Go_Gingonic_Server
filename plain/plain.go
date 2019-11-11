@@ -7,5 +7,5 @@ func Route(router *gin.RouterGroup) {
 }
 
 func plainFunc(c *gin.Context) {
-	c.JSON(200, gin.H{"Hello":"World"})
+	c.JSON(200, gin.H{"Hello":"World fresh --build"})
 }
