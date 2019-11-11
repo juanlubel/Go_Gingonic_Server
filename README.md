@@ -1,5 +1,10 @@
 # Go_Gingonic_Server
 
+Endpoints
+
+    localhost:3030/api -> "Hello":"World"
+    localhost:3030/api/salute/:name -> "Hello, friend %name"}
+
 ## Dockerized
 
 You can use a container to deploy this repository

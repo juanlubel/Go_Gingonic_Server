@@ -18,8 +18,10 @@
 #build
 Go_Gingonic_Server
 
+
 #utils
 *.ico
+.env
 
 #vendor
 vendor/
