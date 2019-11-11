@@ -15,6 +15,8 @@ You can use a container to deploy this repository
 
 Start to programing GoLang without installing environment
 
+Use ./script/govendor.sh to install dependecies on docker
+
 ## Install Go
 
 _Before git clone_
